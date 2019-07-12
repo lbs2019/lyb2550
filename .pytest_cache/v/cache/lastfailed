@@ -1,0 +1,4 @@
+{
+  "scripts/test02.py::Test01::()::test03": true,
+  "scripts/test_login.py": true
+}

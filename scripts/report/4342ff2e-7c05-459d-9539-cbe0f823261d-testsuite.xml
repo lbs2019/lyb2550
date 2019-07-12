@@ -1,0 +1,61 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1562664151961" stop="1562664152014">
+  <name>test02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1562664151961" status="passed" stop="1562664151964">
+      <name>Test01.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18032-MainThread"/>
+        <label name="host" value="LAPTOP-FO9U3I8T"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1562664151964" status="passed" stop="1562664151964">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1562664151964" status="passed" stop="1562664151965">
+      <name>Test01.test002</name>
+      <attachments>
+        <attachment source="d8aec150-fc10-4670-ad7e-c9ce5afe0948-attachment.txt" title="描述: " type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18032-MainThread"/>
+        <label name="host" value="LAPTOP-FO9U3I8T"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1562664151973" status="failed" stop="1562664152014">
+      <name>Test01.test03</name>
+      <failure>
+        <message>FileNotFoundError: [Errno 2] No such file or directory: '../image/fail.png'</message>
+        <stack-trace>self = &lt;test02.Test01 object at 0x03E3B770&gt;
+
+    def test03(self):
+&gt;       with open("../image/fail.png", "rb") as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: '../image/fail.png'
+
+test02.py:17: FileNotFoundError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18032-MainThread"/>
+        <label name="host" value="LAPTOP-FO9U3I8T"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
